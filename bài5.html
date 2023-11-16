@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        Personal Information<br>
+        Account:<input type= "text" name= "txtName" value= "Trần Mạnh Cường" size= "20" maxlength= "30" ><br>
+        Pssword:<input type= "Password" name= "txtPassword" value="tieucuong@23" size="20"
+        maxlength= "30" ><br>
+        Birthday:<input type="date" name="bday"><br>
+        Gender:<br>
+        Male: <input type="radio" name=“gt" value="nam" checked ><br>
+        Female: <input type="radio" name= "gt" value="nu"><br>
+        specialized: <br>
+        English: <input type="checkbox" name="Languages1" value="En"><br>
+        Maths: <input type="checkbox" name="Languages2" value="Chz"><br> 
+        Information technology: <input type="checkbox" name="Languages3" value="Jp" checked><br>
+        Post File:<br>
+        <form name=“frmMain” action=“Post” enctype=“multipart/form-data”>
+            <input type="file" name="fileUpload">
+        </form>
+        Button Send:<br>
+        <input type="submit" name="btnSend" value="Send"><br>
+        Button Reset:<br>
+        <input type="reset" name="btnReset" value="Reset"><br>
+        Button Generalized:<br>
+        <input type="button" name="btnNormal" value="Ấn vào!" onclick="alert('Fuck you');" ><br>
+        Multiline text field<br>
+        <textarea cols="20" rows="5" wrap="off">
+            This is a text on multiline
+            </textarea><br>
+        Laber<br>
+        <labelfor="information technology">Information technology: </label>
+        <input type="checkbox" name="information technology" id="information technology" value="Cntt"><br>
+        Dropdown Menu:<br>
+        <select name="DSSoftware">
+            <optgroup label="Thoi Gian Hoc">
+            <option value="WM10">Thu:3,4,5,6</option>
+            <option value="JA9">Luc 2h Chieu</option>
+            </optgroup>
+            <optgroup label="Mon hoc">
+            <option value="WXP">Toan</option>
+            <option value="WXPSP2">Anh Van</option>
+            <option value="WVT">Cong Nghe Thong Tin</option>
+            </optgroup>
+            <option selected value="Lich Hoc">Lich Hoc</option>
+            </select><br>
+            Field Set:<br>
+        <fieldse>
+            <legend>Mon Hoc:</legend>
+            <input type="checkbox" name="subjects" value="Eng"> English<br>
+            <input type="checkbox" name="subjects" value="Math">Mathematics<br>
+            <input type="checkbox" name="subjects" value="information technology" checked>information technology<br>
+        </fieldse>
+            Marquee:<br>
+            <marquee height="25" direction="right" bgcolor="red">
+                I never love you
+                fuck you
+            </marquee> 
+        </fieldse>
+    </body>
+    </html> 
+</body>
+</html>
